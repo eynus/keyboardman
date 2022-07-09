@@ -25,6 +25,9 @@ p:一个段落  vip
 ## 插件
 vim-textobj-arguments=>缩写为a 1. ia 不包含分隔符  2. aa  包含分隔符 3. 删除一个参数：daa 修改一个参数：cia
 vim-textobj-entire=>缩写为e  1. ae 删除当前文本所有内容 2. ie 删除当前文本所有内容不包含前后空格   3. die dae(常用)
+
+
+
 ```js
   function add  (a,sdsd){
     return a + b []
