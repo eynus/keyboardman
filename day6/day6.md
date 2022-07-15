@@ -16,6 +16,7 @@ v i t :选择标签内部所有内容
 v a t :选择包括标签内部所有内容
 【不常用】：
 s:一个句子  vis
+[vim中.?!结尾的才会当做句子]
 p:一个段落  vip
 2. vi[ 、vi{  同理  di[:删除[]里面的东西、di<:删除<>里面的，比如<div>
 3. viw:选中当前单词 区别于ve(光标到单词结尾)
@@ -23,13 +24,13 @@ p:一个段落  vip
 4. vaw 单词和空格(优先选单词后面若有空格，如无选单词前面空格)
 5. va{ 或者 vaB :带{}选中 
 ## 插件
-vim-textobj-arguments=>缩写为a 1. ia 不包含分隔符  2. aa  包含分隔符 3. 删除一个参数：daa 修改一个参数：cia
+vim-textobj-arguments=>缩写为a 1. ia 不包含分隔符  2. aa  包含分隔符 3. 删除一个参数：daa（参数前的逗号也删除） 修改一个参数：cia（只删当前参数）
 vim-textobj-entire=>缩写为e  1. ae 删除当前文本所有内容 2. ie 删除当前文本所有内容不包含前后空格   3. die dae(常用)
 
 
 
 ```js
-  function add  (a,sdsd){
+  function add  (a,sdaahdsd){
     return a + b []
   }
 ```

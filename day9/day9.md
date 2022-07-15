@@ -57,7 +57,7 @@ operation + z  + 2char
         "s" //sneak
       ]
     },
-    {
+    
       "before": [
         "F"
       ],

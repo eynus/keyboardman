@@ -4,7 +4,7 @@
 ## 单行
 1. f 正向移动到下一个[char]所在之处  e.g: f[  fe
 2. F 反向移动到上一个[char]所在之处
-3. t 正向移动到下一个[char]所在之处的前一个字符上
+3. t 正向移动到下一个[char]所在之处的前一个字符上(应用场景：删除行内M字母之前的所有字符)
 4. T 反向移动到上下一个[char]所在之处的前一个字符上
 5. ; 重复上次的字符查找命令
 6. , 反转方向查到上次的字符查找命令
@@ -12,6 +12,12 @@
 使用技巧 
 1. 移动的时候用f
 2. 结合 c/d 使用t
+## 练习
+clxjclks  dfjldjfkl jlksj,Mslkd;lsk
+
+删除M之前的所有字符：
+1. 可视化模式下 v f , (M前面是,)
+2. d t M 
 
 ## 全局
 1. / 向后查找  e.g. / [char] enter
@@ -31,3 +37,10 @@
 1. v /[关键字] enter 
  "i'f..,e been expecting you" v /ou(ou左边的) 回车  h(向左移一个为了不选中ou) d(删除) "i'f..,e been expecting you" v /ou 回车
 2. d /ou enter  直接删除
+
+
+
+
+
+
+
