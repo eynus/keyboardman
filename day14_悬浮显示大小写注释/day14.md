@@ -19,6 +19,7 @@ esc退出
 2. gC 多行注释
       gC iw 注释当前单词
       gC a{ 注释`{ xxxx }`
+      
 3. tip normal和可视化模式通用
 
 ## 练习
@@ -27,4 +28,5 @@ esc退出
 function /* INTERFACE */ (键入：gu iw / gU iw)
 function iNTERFACE (键入：ve u) 选中当前光标到单词末尾，小写
 ```
-日常开发中大写：先小写，再转换成大写
+日常开发中大写：先小写，再转换成大写.驼峰用shift
+
