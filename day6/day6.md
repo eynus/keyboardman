@@ -30,8 +30,8 @@ vim-textobj-entire=>缩写为e  1. ae 删除当前文本所有内容 2. ie 删�
 
 
 ```js
-  function add  (a,sdaahdsd){
-    return a + b []
+  function add  (a,sdsd){
+    return a + b [vvZvivbb]
   }
 ```
 
