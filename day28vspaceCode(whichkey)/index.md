@@ -82,3 +82,4 @@
 扩展：
 不喜欢弹窗可以自己配置vim `space w w`/`space f w`（自己配）
  `github.com/VSpaceCode/VSpaceCode/tree/vscode-vim`
+这种方式和vim命令方式可以自己选择
