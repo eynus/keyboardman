@@ -20,4 +20,13 @@ constructor(params) {
 fn
 function name (params) {
 
-} 
+}
+console.time('33');//eynus
+(fn) => {
+
+}
+(ss) => {
+  ss
+}
+(s) => s
+  (w) => 3
