@@ -78,6 +78,7 @@
     ]
   }
   ```
-4. 自定义自己的
+4. 自定义自己的 `"vspacecode.bindings":[]`
 扩展：
-不喜欢弹窗可以自己配置vim
+不喜欢弹窗可以自己配置vim `space w w`/`space f w`（自己配）
+ `github.com/VSpaceCode/VSpaceCode/tree/vscode-vim`
